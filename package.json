@@ -1,0 +1,23 @@
+{
+  "name": "next-styled-jsx-jest",
+  "version": "1.0.0",
+  "description": "repro of bug while running jest importing files using styled jsx with postcss plugin",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "main": "index.js",
+  "author": "Ramiro Silveyra d'Avila <ramasilveyra1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "styled-jsx-plugin-postcss": "^2.0.1"
+  }
+}
